@@ -65,6 +65,7 @@ tweet_cv = joblib.load(vectorizer)
 data = pd.read_csv('resources/train.csv')
 cleaned_data = pd.read_csv("resources/preprocessed_data.csv")
 
+#working on umages
 def main():
     """Tweets classifier App"""
     st.sidebar.title("Navigation")
