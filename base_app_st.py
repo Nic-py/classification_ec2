@@ -72,11 +72,11 @@ def main():
 
     st.title('Tweets  Classifier  :)')
 
-    from PIL import Image
+    # from PIL import Image
     # image = Image.open('resources/imgs/twitter_mask.png')
     # image = Image.open('resources/imgs/twitter.webp')
 
-    st.image(image, caption='Which Tweet are you?', use_column_width=True)
+    # st.image(image, caption='Which Tweet are you?', use_column_width=True)
 
     st.subheader('Climate Change Belief Analysis: Based on Tweets')
     
